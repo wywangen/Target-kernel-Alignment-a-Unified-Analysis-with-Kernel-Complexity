@@ -1,7 +1,8 @@
 # Target-kernel-Alignment-a-Unified-Analysis-with-Kernel-Complexity
 
 
-alpha.ipynb is demonstrating the impact of alpha, in other words, choice of kernel on kernel alignment. 
-Other 4 ipynb file, including demo_krr.ipynb, demo_logistic.ipynb, demo_quantile.ipynb, demo_svm.ipynb 
-aim to show under some condition truncated and different loss function the kernel method is better than
- traditional kernel method. function.py contain all needed function used in previous 5 demo ipynb files.
+The file `alpha.ipynb` demonstrates the impact of the parameter \(\alpha\), specifically the choice of kernel, 
+on kernel alignment. The other four notebooks—`demo_krr.ipynb`, `demo_logistic.ipynb`, `demo_quantile.ipynb`, 
+and `demo_svm.ipynb`—aim to illustrate that under certain conditions, including truncation and the use of 
+different loss functions, the modified kernel method performs better than traditional kernel methods. 
+The file `function.py` contains all the necessary functions used across the five demo notebooks.
